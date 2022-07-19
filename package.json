@@ -1,0 +1,19 @@
+{
+  "name": "ecommerceapi",
+  "version": "1.0.0",
+  "description": "Ecommerce API built in Nodejs with Express framework and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MustafaMDKR/ecommerceAPI.git"
+  },
+  "author": "Mustafa Madkour",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MustafaMDKR/ecommerceAPI/issues"
+  },
+  "homepage": "https://github.com/MustafaMDKR/ecommerceAPI#readme"
+}
