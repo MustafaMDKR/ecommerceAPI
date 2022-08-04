@@ -1,19 +1,18 @@
 {
-  "name": "ecommerceapi",
+  "name": "api",
   "version": "1.0.0",
-  "description": "Ecommerce API built in Nodejs with Express framework and MongoDB",
+  "description": "API in Nodejs for ecommerce project built in MERN stack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/MustafaMDKR/ecommerceAPI.git"
-  },
-  "author": "Mustafa Madkour",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MustafaMDKR/ecommerceAPI/issues"
-  },
-  "homepage": "https://github.com/MustafaMDKR/ecommerceAPI#readme"
+  "repository": "git@github.com:MustafaMDKR/ecommerceAPI.git",
+  "author": "Mustafa Madkour <mustafamdkr@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.1",
+    "nodemon": "^2.0.19"
+  }
 }
